@@ -1,6 +1,6 @@
 ---
 title: "동영상 확장자에 대한 이해 - 컨테이너(Container), 코덱(Codec)"
-excerpt: "멀티미디어 용어 정리"
+excerpt: "동영상 확장자에 대한 이해"
 
 categories:
   - Multimedia
