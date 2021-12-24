@@ -217,3 +217,4 @@ GOP가 가지고 있는 I-frame, P-frame, B-frame 의 비율에 따라 압축비
   - I-frame과 P-frame 사이에서 양쪽 프레임을 모두 참조하여 바뀐 부분의 내용을 담고 있는 프레임
   - P frame의 용량의 33% 크기
 
+<br>
