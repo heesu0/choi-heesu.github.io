@@ -1,6 +1,6 @@
 ---
 title: "오디오 코덱(Audio Codec) 종류"
-excerpt: "오디오 코덱 종류와 장단점"
+excerpt: ""
 
 categories:
   - Multimedia

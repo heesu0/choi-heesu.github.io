@@ -1,6 +1,6 @@
 ---
 title: "동영상 확장자(Container Format) 종류"
-excerpt: "동영상 확장자 종류와 장단점"
+excerpt: ""
 
 categories:
   - Multimedia

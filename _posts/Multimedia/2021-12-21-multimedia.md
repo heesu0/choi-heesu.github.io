@@ -1,6 +1,6 @@
 ---
 title: "멀티미디어 용어 정리"
-excerpt: "멀티미디어 용어 정리"
+excerpt: ""
 
 categories:
   - Multimedia

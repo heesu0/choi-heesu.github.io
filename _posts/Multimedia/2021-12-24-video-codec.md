@@ -1,6 +1,6 @@
 ---
 title: "비디오 코덱(Video Codec) 종류"
-excerpt: "비디오 코덱 종류와 장단점"
+excerpt: ""
 
 categories:
   - Multimedia

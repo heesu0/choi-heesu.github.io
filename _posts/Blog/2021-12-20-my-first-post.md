@@ -1,6 +1,6 @@
 ---
 title: "블로그 이사"
-excerpt: "티스토리 -> 깃허브"
+excerpt: ""
 
 categories:
   - Blog
