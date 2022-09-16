@@ -169,7 +169,7 @@ figcaption > code,
 td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  font-size: 1em;
+  font-size: $type-size-custom;
   background: $code-background-color;
   border-radius: $border-radius;
   color:black;
