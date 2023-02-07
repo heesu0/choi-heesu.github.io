@@ -1,5 +1,5 @@
 ---
-title: "Go"
+title: "Golang"
 layout: archive
 permalink: categories/go
 author_profile: true
