@@ -4,8 +4,6 @@ excerpt: ""
 
 categories:
   - Protocol
-tags:
-  - [Protocol]
 
 toc: false
 toc_sticky: false

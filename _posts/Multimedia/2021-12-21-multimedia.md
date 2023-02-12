@@ -4,8 +4,6 @@ excerpt: ""
 
 categories:
   - Multimedia
-tags:
-  - [Multimedia]
 
 toc: true
 toc_sticky: false

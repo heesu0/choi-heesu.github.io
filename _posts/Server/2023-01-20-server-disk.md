@@ -4,8 +4,6 @@ excerpt: ""
 
 categories:
   - Server
-tags:
-  - [Server]
 
 toc: true
 toc_sticky: false

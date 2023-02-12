@@ -4,8 +4,6 @@ excerpt: ""
 
 categories:
   - Blog
-tags:
-  - [Blog]
 
 toc: false
 toc_sticky: false

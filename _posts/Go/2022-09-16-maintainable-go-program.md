@@ -4,8 +4,6 @@ excerpt: ""
 
 categories:
   - Go
-tags:
-  - [Go]
 
 toc: true
 toc_sticky: false
