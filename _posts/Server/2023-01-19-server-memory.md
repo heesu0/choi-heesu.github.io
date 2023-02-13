@@ -20,6 +20,7 @@ last_modified_at: 2023-01-19
 
 > 여기서 정의하는 메모리는 휘발성 메모리인 RAM(Random Access Memory)을 의미한다.
 
+대표적인 메모리 모니터링 지표로는 메모리 사용량이 있다.
 
 <br>
 
