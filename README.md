@@ -1,3 +1,3 @@
-## 블로그
+## Blog
 
-https://choi-heesu.github.io/
+https://heesu-choi.com
