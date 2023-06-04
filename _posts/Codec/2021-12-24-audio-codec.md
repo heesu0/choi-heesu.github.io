@@ -1,9 +1,9 @@
 ---
-title: "오디오 코덱(Audio Codec) 종류"
+title: "Audio Codec 종류"
 excerpt: ""
 
 categories:
-  - Multimedia
+  - Codec
 
 toc: false
 toc_sticky: false

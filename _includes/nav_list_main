@@ -12,7 +12,7 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C -->
-        <span class="nav__sub-title">Study</span>
+        <span class="nav__sub-title">Language</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열 -->
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
@@ -37,6 +37,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Computer Science</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Linux" %}
@@ -53,11 +54,12 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Protocol" %}
-                        <li><a href="/categories/protocol" class="">Protocol ({{category[1].size}})</a></li>
+                    {% if category[0] == "Network" %}
+                        <li><a href="/categories/network" class="">Network ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Multimedia</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Multimedia" %}
@@ -65,11 +67,29 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Etc</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열 -->
             <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "Container" %}
+                        <li><a href="/categories/container" class="">Container ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Codec" %}
+                        <li><a href="/categories/codec" class="">Codec ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Streaming Protocol" %}
+                        <li><a href="/categories/streaming" class="">Streaming Protocol ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Etc</span>
+            <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
                         <li><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>

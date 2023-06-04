@@ -1,5 +1,5 @@
 ---
-title: "(WIP) - 서버 자원 - Network"
+title: "TODO : 서버 자원 - Network"
 excerpt: ""
 
 categories:

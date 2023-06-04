@@ -1,9 +1,9 @@
 ---
-title: "비디오 코덱(Video Codec) 종류"
+title: "Video Codec 종류"
 excerpt: ""
 
 categories:
-  - Multimedia
+  - Codec
 
 toc: false
 toc_sticky: false

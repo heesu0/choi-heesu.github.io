@@ -1,9 +1,9 @@
 ---
-title: "동영상 확장자(Container Format) 종류"
+title: "Container Format 종류"
 excerpt: ""
 
 categories:
-  - Multimedia
+  - Container
 
 toc: false
 toc_sticky: false
@@ -18,7 +18,7 @@ last_modified_at: 2021-12-23
 
 디테일한 정보를 나열하는 글들은 인터넷에 널려있으니 간단하게 어떠한 종류들이 있고 어떤 장단점을 가졌는지 정리해 보자.
 
-컨테이너나 코덱에 대한 이해가 부족하면 [이전 포스트](https://choi-heesu.github.io/multimedia/container/)를 참고하자.
+컨테이너나 코덱에 대한 이해가 부족하면 [이전 포스트](/multimedia/container/)를 참고하자.
 
 <br>
 
