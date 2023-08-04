@@ -7,7 +7,7 @@ sidebar_main: true
 ---
 
 ### Heesu Choi (최희수)
-> 멀티미디어 분야에 관심이 많은 3년차 백엔드 개발자입니다.
+> 스트리밍 분야에 관심이 많은 백엔드 개발자입니다.
 
 ### Careers
 - **NAVER** - Software Engineer (2022.06 ~ **PRESENT**)
