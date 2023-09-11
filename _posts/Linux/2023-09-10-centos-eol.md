@@ -1,5 +1,5 @@
 ---
-title: "CentOS EOL(End-Of-Life)"
+title: "CentOS EOL"
 excerpt: ""
 
 categories:
@@ -12,9 +12,9 @@ date: 2023-09-10
 last_modified_at: 2023-09-10
 ---
 
-# 서론
+## 서론
 
-Red Hat은 사내 표준 운영체제로 사용하던 CentOS의 지원 종료를 발표했다.
+Red Hat은 사내 표준 운영체제로 사용하던 CentOS의 지원 종료(EOL, End-Of-Life)를 발표했다.
 
 ![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/bb7117b8-c11f-4216-9d73-eb8b265e0852)
 
@@ -24,7 +24,7 @@ Red Hat은 사내 표준 운영체제로 사용하던 CentOS의 지원 종료를
 
 <br>
 
-# CentOS 사용 이유
+## CentOS 사용 이유
 
 ![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/ad81a335-3fb7-4df8-a97f-b1184f5acaf5){: width="50%" height="50%"}
 
@@ -38,7 +38,7 @@ CentOS는 RHEL의 장점을 그대로 누리면서 무료로 제공되기 때문
 
 <br>
 
-# CentOS 지원 종료
+## CentOS 지원 종료
 
 2018년 8월에 Red Hat이 CentOS를 인수한 이후, CentOS는 RHEL의 Downstream으로 존재하게 되었다.
 
@@ -71,9 +71,9 @@ Red Hat은 공식적으로 지원하는 RHEL Downstream이 없기 때문에 리�
 
 <br>
 
-# CentOS 대체 배포판
+## CentOS 대체 배포판
 
-## RHEL
+### RHEL
 
 ![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/3378c1fd-9c9b-41e3-9f93-5407efb838be){: width="50%" height="50%"}
 
@@ -88,7 +88,7 @@ Red Hat은 CentOS 지원 종료 발표 이후, 최대 16개의 서버에서 무�
 
 <br>
 
-## Rocky Linux
+### Rocky Linux
 
 ![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/757cc106-073d-4bc1-b7da-094b59ea8e25){: width="50%" height="50%"}
 
@@ -100,7 +100,7 @@ Rocky Linux는 현재 많은 기업(구글, 아마존, VMware 등)의 지지를 
 
 <br>
 
-## Oracle Linux
+### Oracle Linux
 
 ![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/ac8bb9c3-309f-4523-ae07-044dcba99ac2){: width="50%" height="50%"}
 
