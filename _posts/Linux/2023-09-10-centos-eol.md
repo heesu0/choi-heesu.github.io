@@ -77,11 +77,13 @@ Red Hat은 공식적으로 지원하는 RHEL Downstream이 없기 때문에 리�
 
 ![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/3378c1fd-9c9b-41e3-9f93-5407efb838be){: width="50%" height="50%"}
 
-가장 간단한 방법은 Red Hat의 의도대로 유료로 RHEL을 사용하는 것이다.
+가장 간단한 방법은 Red Hat의 의도대로 RHEL을 사용하는 것이다.
 
-다만, 개인 개발 목적으로는 RHEL을 무료로 사용할 수 있다.
+무료로 CentOS를 사용하던 기업 입장에서 유료인 RHEL을 사용하는 것은 고려하기 싫은 선택지이지만 개인 개발 용도로 사용하는 사람에게는 나쁘지 않은 선택지이다. 
 
-Red Hat은 CentOS 지원 종료 발표 이후, 최대 16개의 서버에서 무료로 RHEL을 사용할 수 있는 정책을 발표했기 때문이다.
+개인 개발 목적으로는 RHEL을 무료로 사용할 수 있기 때문이다.
+
+Red Hat은 CentOS 지원 종료 발표 이후, 최대 16개의 서버에서 무료로 RHEL을 사용할 수 있는 정책을 발표했다.
 
 ![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/f06ecd70-16d0-4643-a1e1-e3b8a9b35f57)
 
