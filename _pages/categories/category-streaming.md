@@ -9,5 +9,5 @@ classes: wide
 
 ***
 
-{% assign posts = site.categories["Streaming Protocol"] %}
+{% assign posts = site.categories["Streaming_Protocol"] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

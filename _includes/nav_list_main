@@ -83,7 +83,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Streaming Protocol" %}
+                    {% if category[0] == "Streaming_Protocol" %}
                         <li><a href="/categories/streaming" class="">Streaming Protocol ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
