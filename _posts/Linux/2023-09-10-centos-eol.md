@@ -55,7 +55,7 @@ Red Hat 배포판 생태계를 보면, Fedora에서 다양한 기능들을 개�
 
 CentOS는 정식으로 릴리즈된 RHEL 기능을 그대로 적용한 Downstream이므로 적용은 비교적 느리지만 안정성과 보안성을 보장받을 수 있다.
 
-하지만 앞서 이야기한 대로 Red Hat은 CentOS의 지원을 종료하고 CentOS Stream에 집중하겠다고 발표한다.
+하지만 앞서 이야기한 대로 Red Hat은 CentOS의 지원을 종료하고 CentOS Stream에 집중하겠다고 발표했다.
 
 ![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/71b6edcf-385a-486a-841b-4db24d5f6914)
 
@@ -79,7 +79,7 @@ Red Hat은 공식적으로 지원하는 RHEL Downstream이 없기 때문에 리�
 
 가장 간단한 방법은 Red Hat의 의도대로 RHEL을 사용하는 것이다.
 
-무료로 CentOS를 사용하던 기업 입장에서 유료인 RHEL을 사용하는 것은 고려하기 싫은 선택지이지만 개인 개발 용도로 사용하는 사람에게는 나쁘지 않은 선택지이다. 
+무료로 CentOS를 사용하던 기업 입장에서는 유료인 RHEL을 사용하고 싶지 않겠지만 개인 개발용으로는 꽤 괜찮은 선택지이다.
 
 개인 개발 목적으로는 RHEL을 무료로 사용할 수 있기 때문이다.
 
