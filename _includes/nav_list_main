@@ -37,18 +37,18 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Computer Science</span>
+        <span class="nav__sub-title">Server</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Linux" %}
-                        <li><a href="/categories/linux" class="">Linux ({{category[1].size}})</a></li>
+                    {% if category[0] == "Server" %}
+                        <li><a href="/categories/server" class="">Server ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Server" %}
-                        <li><a href="/categories/server" class="">Server ({{category[1].size}})</a></li>
+                    {% if category[0] == "Linux" %}
+                        <li><a href="/categories/linux" class="">Linux ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -93,6 +93,13 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
                         <li><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Docs" %}
+                        <li><a href="/categories/docs" class="">Docs ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
