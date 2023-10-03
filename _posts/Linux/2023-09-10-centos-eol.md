@@ -16,7 +16,7 @@ last_modified_at: 2023-09-10
 
 Red Hat은 사내 표준 운영체제로 사용하던 CentOS의 지원 종료(EOL, End-Of-Life)를 발표했다.
 
-![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/bb7117b8-c11f-4216-9d73-eb8b265e0852)
+![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/bb7117b8-c11f-4216-9d73-eb8b265e0852){: width="800px"}
 
 > CentOS 8은 2021년 12월 31일에 지원이 종료되었으며, CentOS 7도 2024년 06월 30일에 지원이 종료 될 예정이다.
 
@@ -26,7 +26,7 @@ Red Hat은 사내 표준 운영체제로 사용하던 CentOS의 지원 종료(EO
 
 ## CentOS 사용 이유
 
-![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/ad81a335-3fb7-4df8-a97f-b1184f5acaf5){: width="50%" height="50%"}
+![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/ad81a335-3fb7-4df8-a97f-b1184f5acaf5){: width="600px"}
 
 CentOS(Community Enterprise Operating System)는 RHEL(Red Hat Enterprise Linux)에서 파생된 리눅스 배포판이다.
 
@@ -44,7 +44,7 @@ CentOS는 RHEL의 장점을 그대로 누리면서 무료로 제공되기 때문
 
 2022년 기준, Red Hat 배포판 생태계는 다음과 같다.
 
-![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/10b1fc62-b875-4cf7-831b-5e08236df92b)
+![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/10b1fc62-b875-4cf7-831b-5e08236df92b){: width="800px"}
 
 - `Fedora` : 실험적인 기능을 테스트하는 리눅스 배포판
 - `CentOS Stream` : RHEL에 버그 패치 및 신규 기능이 반영되기 전에 테스트 및 검증하기 위한 리눅스 배포판 (RHEL Upstream)
@@ -57,11 +57,11 @@ CentOS는 정식으로 릴리즈된 RHEL 기능을 그대로 적용한 Downstrea
 
 하지만 앞서 이야기한 대로 Red Hat은 CentOS의 지원을 종료하고 CentOS Stream에 집중하겠다고 발표했다.
 
-![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/71b6edcf-385a-486a-841b-4db24d5f6914)
+![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/71b6edcf-385a-486a-841b-4db24d5f6914){: width="800px"}
 
 CentOS 지원이 종료된 2025년 기준, Red Hat 배포판 생태계는 다음과 같다.
 
-![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/985aa655-96ee-408a-a353-d87e85e8e9a2)
+![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/985aa655-96ee-408a-a353-d87e85e8e9a2){: width="800px"}
 
 Red Hat은 공식적으로 지원하는 RHEL Downstream이 없기 때문에 리눅스 배포판을 무료로 사용하려면 CentOS Stream을 사용해야 한다.
 
@@ -75,7 +75,7 @@ Red Hat은 공식적으로 지원하는 RHEL Downstream이 없기 때문에 리�
 
 ### RHEL
 
-![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/3378c1fd-9c9b-41e3-9f93-5407efb838be){: width="50%" height="50%"}
+![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/3378c1fd-9c9b-41e3-9f93-5407efb838be){: width="600px"}
 
 가장 간단한 방법은 Red Hat의 의도대로 RHEL을 사용하는 것이다.
 
@@ -85,14 +85,14 @@ Red Hat은 공식적으로 지원하는 RHEL Downstream이 없기 때문에 리�
 
 Red Hat은 CentOS 지원 종료 발표 이후, 최대 16개의 서버에서 무료로 RHEL을 사용할 수 있는 정책을 발표했다.
 
-![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/f06ecd70-16d0-4643-a1e1-e3b8a9b35f57)
+![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/f06ecd70-16d0-4643-a1e1-e3b8a9b35f57){: width="800px"}
 
 
 <br>
 
 ### Rocky Linux
 
-![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/757cc106-073d-4bc1-b7da-094b59ea8e25){: width="50%" height="50%"}
+![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/757cc106-073d-4bc1-b7da-094b59ea8e25){: width="600px"}
 
 Red Hat이 CentOS 지원 종료를 발표한 후 많은 사람들이 이에 반발했다. 그 중 CentOS 프로젝트의 공동설립자 Gregory Kurtzer는 RHEL Downstream 무료 배포판인 Rocky Linux를 만들었다.
 
@@ -104,7 +104,7 @@ Rocky Linux는 현재 많은 기업(구글, 아마존, VMware 등)의 지지를 
 
 ### Oracle Linux
 
-![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/ac8bb9c3-309f-4523-ae07-044dcba99ac2){: width="50%" height="50%"}
+![image](https://github.com/heesu0/choi-heesu.github.io/assets/34677157/ac8bb9c3-309f-4523-ae07-044dcba99ac2){: width="600px"}
 
 Oracle Linux는 Oracle에서 관리하는 RHEL Downstream 무료 배포판이다.
 
