@@ -284,7 +284,20 @@ int&& n = plusFive(5); // rvalue reference를 통해 임시 객체를 생성하�
 std::cout << &n << std::endl; // 임시 객체의 주소에도 접근할 수 있다.
 ```
 
-## 이동 문법 (Move Semantics)
+## 보편 참조(Universal Reference)
+- universal reference는 참조하는 객체가 lvalue면 lvalue reference가 되고 rvalue면 rvalue reference가 되는 유연성을 가진 reference이다.
+- 클래스의 이동 생성자/이동 할당 연산자를 호출하기 위한 파라미터 타입으로 사용된다.
+- universal reference 조건
+  - 타입 추론이 일어나야 한다.
+    - 타입 추론이 일어나지 않으면 rvalue reference 이다.
+    - 템플릿 클래스 안의 함수들은 타입 추론이 일어나지 않는다. 템플릿 함수에서 타입 추론이 일어난다.
+  - `T&&` 형태여야 한다.
+    - 타입 추론이 일어나도 `T&&` 형태가 아니면 rvalue reference 이다.
+    - `const T&&`와 `std::vector<T>&&` 도 rvalue reference 이다.
+- universal reference는 오버로딩 우선순위가 높아서 오버로딩을 사용하지 않는 것이 좋다.
+
+
+## 이동 문법(Move Semantics)
 - move semantics는 객체를 생성하거나 대입할 때 이름이 있는 객체는 복사하고 이름이 없는 임시 객체는 이동하여 불필요한 복사를 방지하는 기능이다.
 - move semantics는 이동 생성자(move constructor)와 이동 대입 연산자(move assignment operator)를 통해 구현된다.
 - move semantics는 기존 객체에 있는 모든 멤버 변수의 주소를 이동하는 객체에게 넘겨주고 기존 객체가 가지고 있는 주소값을 지우기 때문에 소유권을 이전한다고 표현한다.
@@ -358,8 +371,10 @@ int main() {
 - `std::move`는 실제로 이동 시키는 것이 아니라 단순히 타입을 변환하는 함수이다.
 - `std::move`를 argument로 받는 함수는 이를 rvalue로 인식하여 특정 목적에 맞게 사용할 수 있다. (lvalue 객체를 복사 생성/대입이 아닌 이동 생성/대입으로 구현할 수 있다.)
 - 즉, `std::move` 자체가 의미 있는게 아니라 `std::move`를 인자로 받은 쪽에서 어떻게 사용하는지가 핵심이다.
-- `const`가 붙어있는 변수를 `std::move` 시키면 move가 아닌 copy가 발생한다.
-- primitive type(`int`, `char`, `double` 등등)은 `std::move`를 사용할 필요가 없다.
+- std::move 사용 시 주의할 점
+  - 이동에 사용할 객체는 `const`로 선언하면 이동 연산이 아닌 복사 연산이 일어난다.
+    - const rvalue 인자를 사용하면 객체의 복사 생성자/복사 할당 연산자가 호출되기 때문이다.
+  - primitive type(`int`, `char`, `double` 등등)은 `std::move`를 사용할 필요가 없다.
 
 ```cpp
 class Cat {
@@ -507,9 +522,14 @@ std::cout << n << std::endl; // 2
 
 ## RVO(Return Value Optimization)
 - 컴파일러에 의해 최적화되는 반환 값
-- 함수가 호출되면 스택 프레임이 쌓이고 그 안에 반환할 객체에 대한 주소값을 가지고 있다.
-- 그 이전 스택 프레임에는 반환받을 값에 대한 메모리 공간이 있고 함수가 종료되면 해당 공간으로 반환 값의 복사가 일어난다.
-- RVO는 처음부터 반환 받을 메모리 공간에 값을 할당해서 불필요한 복사를 방지한다.
+  - 함수가 호출되면 스택 프레임이 쌓이고 그 안에 반환할 객체에 대한 주소값을 가지고 있다.
+  - 그 이전 스택 프레임에는 반환받을 값에 대한 메모리 공간이 있고 함수가 종료되면 해당 공간으로 반환 값의 복사가 일어난다.
+  - RVO는 처음부터 반환 받을 메모리 공간에 값을 할당해서 불필요한 복사를 방지한다. (복사 생략, Copy Elision)
+- RVO 조건
+  1. 지역 객체의 타입이 함수의 반환 타입과 같아야 한다.
+  2. 지역 객체가 함수의 반환 값이어야 한다.
+- RVO의 대상이 될 수 있는 지역 객체에는 `std::move` 혹은 `std::forward`를 적용하면 안된다.
+  - `std::move` 혹은 `std::forward`를 적용하면 지역 객체가 아닌 지역 객체의 참조자를 반환하기 때문에 RVO 2번 조건을 위배한다.
 - 변수 이름이 있나 없나로 NRVO, RVO로 나뉘지만 동작은 똑같다.
 
 ```cpp
