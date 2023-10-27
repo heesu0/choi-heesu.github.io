@@ -14,8 +14,8 @@ last_modified_at: 2023-02-21
 
 # Pointer, Reference, LR Value
 
-## 매개변수(Parameter), 인자(Argument)
-- 매개변수(parameter)는 함수의 정의 부분에 나열된 변수(variable)이다.
+## 인자(매개변수, Parameter), 인수(Argument)
+- 인자(매개변수, parameter)는 함수의 정의 부분에 나열된 변수(variable)이다.
 - 인수(argument)는 함수가 호출될 때 함수로 전달해주는 값(value)이다.
 
 ```cpp

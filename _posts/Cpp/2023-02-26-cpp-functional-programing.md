@@ -14,7 +14,9 @@ last_modified_at: 2023-02-26
 
 # Functional Programming
 
-- 함수를 변수처럼 사용하는 프로그래밍 방식
+## 함수형 프로그래밍(Function Programming)
+
+- 함수를 변수처럼 사용하는 프로그래밍 방식이다.
 
 ## std::function
 - `std::function`은 Callable들을 객체의 형태로 보관할 수 있는 객체이다.
