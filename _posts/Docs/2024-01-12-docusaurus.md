@@ -121,7 +121,7 @@ $ yarn -v
 
 다음으로 Docusaurus 기본 템플릿을 설치한다. 설치가 완료되면 프로젝트 이름과 동일한 폴더가 생성된다.
 
-> Node.js(16.14 버전 이상)이 설치되어 있어야 한다.
+> Node.js(16.14 버전 이상)가 설치되어 있어야 한다.
 
 ```bash
 $ npx create-docusaurus@latest $(프로젝트 이름) classic
