@@ -191,7 +191,7 @@ C/C++과 Go는 런타임 환경과 스택 관리 방식이 서로 다르기 때�
 
 이러한 성능 차이의 원인은 Go 런타임의 구현 코드를 통해 유추할 수 있다.
 
-[Go에서 C를 호출하는 경우](https://github.com/golang/go/blob/master/src/runtime/cgocall.go#L117)와 달리 [C에서 Go를 호출하는 경우](https://github.com/golang/go/blob/master/src/runtime/cgocall.go#L278)에는 Go 런타임이 OS 스레드 락을 잡는다. 이는 Go 스케줄러가 Go 함수 실행 중에 고루틴을 다른 OS 스레드로 이동시키는 것을 방지하기 위한 조치이다. 이렇게 함으로써 Go 런타임의 안정적으로 관리할 수 있지만 불가피한 성능 저하가 발생한다. 
+[Go에서 C를 호출하는 경우](https://github.com/golang/go/blob/master/src/runtime/cgocall.go#L117)와 달리 [C에서 Go를 호출하는 경우](https://github.com/golang/go/blob/master/src/runtime/cgocall.go#L278)에는 Go 런타임이 OS 스레드 락을 잡는다. 이는 Go 스케줄러가 Go 함수 실행 중에 고루틴을 다른 OS 스레드로 이동시키는 것을 방지하기 위한 조치이다. 이렇게 함으로써 Go 런타임을 안정적으로 관리할 수 있지만 불가피한 성능 저하가 발생한다.
 
 현실적으로 성능 저하를 줄일 수 있는 방법은 함수 호출 횟수를 줄이는 방법뿐이다. C/C++ 코드에서 Go 함수를 호출해야 하는 경우, 함수 호출을 최대한 적게 하고 호출할 때마다 최대한 많은 작업을 수행하도록 구현하는 것이 좋다.
 
