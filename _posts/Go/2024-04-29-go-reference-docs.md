@@ -68,7 +68,7 @@ last_modified_at: 2024-04-29
 - [pprof](https://github.com/google/pprof)
   - Go 프로그램의 프로파일링 데이터를 시각화 및 분석하는 도구
 - [automaxprocs](https://github.com/uber-go/automaxprocs)
-  - Go 프로그램을 컨테이너 환경에서 실행할 때, `GOMAXPROCS` 값을 CPU 코어 개수가 아닌 컨테이너 CPU 제한에 맞게 설정하는 모듈
+  - Go 프로그램을 컨테이너 환경에서 실행할 때, GOMAXPROCS 값을 CPU 코어 개수가 아닌 컨테이너 CPU 제한에 맞게 설정하는 모듈
 - [go-perfbook](https://github.com/dgryski/go-perfbook)
   - Go 성능 최적화에 대한 생각을 담은 글
 - [Reducing Memory Allocations in Golang](https://chris124567.github.io/2021-06-21-go-performance/)

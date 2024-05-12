@@ -33,9 +33,9 @@ Go와 C/C++ 코드 간의 사용 방법은 두 가지가 있다.
 
 첫번째는 [cgo](https://pkg.go.dev/cmd/cgo)를 사용하는 방법이다.
 
-Cgo는 Go와 C 코드 간의 FFI(Foreign Function Interface)를 지원하는 도구이다. cgo를 사용하면 Go 코드에서 C 함수를 호출하거나 Go 함수를 C 라이브러리로 내보낼(export) 수 있다.
+Cgo는 Go와 C 코드 간의 FFI(Foreign Function Interface)를 지원하는 도구이다. Cgo를 사용하면 Go 코드에서 C 함수를 호출하거나 Go 함수를 C 라이브러리로 내보낼(export) 수 있다.
 
-Cgo는 C++ 기능(예: 클래스, 레퍼런스, 템플릿 등)을 사용할 수 없으며 C 인터페이스만 지원한다. 따라서 C++ 코드에서 내보낸 Go 함수를 호출하려면 `extern "C"` 키워드를 사용하여 name mangling을 비활성화해야 한다.
+Cgo는 C++ 기능(예: 클래스, 레퍼런스, 템플릿 등)을 사용할 수 없으며 C 인터페이스만 지원한다. 따라서 C++ 코드에서 Go 함수를 호출하려면, C 라이브러리를 사용하는 것처럼 `extern "C"` 키워드를 사용하여 name mangling을 비활성화해야 한다.
 
 > Go 코드에서 C++ 코드를 사용하기 위해 Go 기본 컴파일러(gc) 대신 gccgo, gollvm을 사용하여 C++ 함수를 링킹하는 방법이 있지만, 이는 Go에서 권장하는 방법이 아니다.
 
