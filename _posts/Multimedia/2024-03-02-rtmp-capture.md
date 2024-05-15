@@ -20,15 +20,15 @@ Wireshark와 tcpdump를 이용하여 RTMP 패킷을 캡처하는 방법을 알�
 
 ## Wireshark, tcpdump
 
-RTMP 패킷 캡처 방법을 설명하기 전에, 왜 Wireshark와 tcpdump를 함께 사용하는지에 대해 간략히 이야기 해보겠다.
+RTMP 패킷 캡처 방법을 설명하기 전에, Wireshark와 tcpdump를 함께 사용하는 이유에 대해 간략하게 이야기 해보겠다.
 
-Wireshark와 tcpdump는 둘 다 네트워크 패킷을 캡처하고 분석하는 도구이다. 따라서 둘 중 하나만 사용해도 RTMP 패킷을 캡처할 수 있다.
+Wireshark와 tcpdump는 모두 네트워크 패킷을 캡처하고 분석하는 도구이다. 그러므로 둘 중 하나만을 사용해도 RTMP 패킷을 캡처할 수 있다.
 
 특히 Wireshark는 뛰어난 GUI 환경을 제공하기 때문에 tcpdump보다 사용하기 쉽고 패킷 분석도 용이하다.
 
-그러나 GUI를 사용할 수 없는 원격 서버에서 패킷을 캡처해야 하는 경우, 가볍고 CLI로 동작하는 tcpdump가 더 좋은 선택이 될 수 있다.
+그러나 GUI를 사용할 수 없는 원격 서버에서 패킷을 캡처해야 하는 경우에는 가볍고 CLI로 동작하는 tcpdump가 더 적합할 수 있다.
 
-그래서 원격 서버에서 패킷을 캡처할 경우, 각 도구의 장점을 활용하기 위해 tcpdump를 통해 네트워크 패킷을 캡처하고 GUI 환경에서 Wireshark로 분석하는 방법을 추천한다.
+따라서 원격 서버에서 패킷을 캡처해야 하는 경우, 각 도구의 장점을 활용하여 tcpdump를 통해 네트워크 패킷을 캡처하고 GUI 환경에서 Wireshark로 분석하는 방법을 추천한다.
 
 이때 Wireshark와 tcpdump는 PCAP 파일 포맷을 통해 캡처한 네트워크 패킷은 주고 받는다.
 
