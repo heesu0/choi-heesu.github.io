@@ -75,10 +75,14 @@ last_modified_at: 2024-04-29
   - Go 메모리 할당을 줄이는 팁 ([string/byte slice 캐스팅 트릭은 1.20 버전부터 함수로 지원](https://www.sobyte.net/post/2022-09/string-byte-convertion/#the-new-way-of-go-120))
 - [The One Billion Row Challenge in Go](https://benhoyt.com/writings/go-1brc/)
   - Go를 사용하여 10억 행을 처리하는 시간을 1분 45초에서 4초로 단축하는 9가지 최적화 방법을 소개
+- [Golang GC 튜닝 가이드](https://tech.kakao.com/2024/05/13/golang-gc-tuning-guide/?utm_campaign=asb&utm_medium=blog&utm_source=awesome-blogs.petabytes.org)
+  - 카카오 테크 블로그에서 소개하는 Golang GC 튜닝 가이드
 
 ### Go 린트
 - [golangci-lint](https://golangci-lint.run/)
   - Go 코드를 검사할 수 있는 린트 도구 (Github Action과 연동해서 많이 사용)
+- [Golden config for golangci-lint](https://gist.github.com/maratori/47a4d00457a92aa426dbd48a18776322#file-golangci-yml)
+  - 괜찮은 린트 옵션들만 활성화한 golangci-lint 설정 파일 예시
 
 ### Go 프로젝트 모음
 - [Awesome Go](https://github.com/avelino/awesome-go)
