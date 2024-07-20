@@ -37,11 +37,11 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Server</span>
+        <span class="nav__sub-title">Backend</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Server" %}
-                        <li><a href="/categories/server" class="">Server ({{category[1].size}})</a></li>
+                    {% if category[0] == "Network" %}
+                        <li><a href="/categories/network" class="">Network ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -54,16 +54,23 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Network" %}
-                        <li><a href="/categories/network" class="">Network ({{category[1].size}})</a></li>
+                    {% if category[0] == "Server" %}
+                        <li><a href="/categories/server" class="">Server ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Multimedia</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Multimedia" %}
-                        <li><a href="/categories/multimedia" class="">Multimedia ({{category[1].size}})</a></li>
+                    {% if category[0] == "Multimedia_Basic" %}
+                        <li><a href="/categories/multimedia_basic" class="">Multimedia Basic ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Multimedia_Framework" %}
+                        <li><a href="/categories/multimedia_framework" class="">Multimedia Framework ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -88,7 +95,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Etc</span>
+        <span class="nav__sub-title">ETC</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}

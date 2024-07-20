@@ -3,7 +3,7 @@ title: "멀티미디어 용어 정리"
 excerpt: ""
 
 categories:
-  - Multimedia
+  - Multimedia_Basic
 
 toc: true
 toc_sticky: false

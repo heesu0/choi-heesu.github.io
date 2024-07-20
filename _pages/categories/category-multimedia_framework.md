@@ -1,7 +1,7 @@
 ---
-title: "Multimedia"
+title: "Multimedia Framework"
 layout: archive
-permalink: categories/multimedia
+permalink: categories/multimedia_framework
 author_profile: true
 sidebar_main: true
 classes: wide
@@ -9,5 +9,5 @@ classes: wide
 
 ***
 
-{% assign posts = site.categories.Multimedia %}
+{% assign posts = site.categories["Multimedia_Framework"] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

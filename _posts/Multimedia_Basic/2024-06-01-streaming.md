@@ -3,7 +3,7 @@ title: "TODO : 스트리밍(Streaming)에 대한 이해"
 excerpt: ""
 
 categories:
-  - Multimedia
+  - Multimedia_Basic
 
 toc: false
 toc_sticky: false

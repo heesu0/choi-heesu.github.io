@@ -3,7 +3,7 @@ title: "동영상 확장자에 대한 이해 - 컨테이너(Container), 코덱(C
 excerpt: ""
 
 categories:
-  - Multimedia
+  - Multimedia_Basic
 
 toc: false
 toc_sticky: false

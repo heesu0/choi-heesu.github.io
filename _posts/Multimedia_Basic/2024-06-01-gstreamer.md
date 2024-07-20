@@ -3,7 +3,7 @@ title: "TODO : GStreamer"
 excerpt: ""
 
 categories:
-  - Multimedia
+  - Multimedia_Framework
 
 toc: false
 toc_sticky: false

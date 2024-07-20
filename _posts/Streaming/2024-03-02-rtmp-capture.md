@@ -3,7 +3,7 @@ title: "Capturing RTMP Packets"
 excerpt: ""
 
 categories:
-  - Multimedia
+  - Streaming_Protocol
 
 toc: false
 toc_sticky: false
